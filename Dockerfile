@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8-alpine
 LABEL maintainer="Hítalo Silva <hitalos@gmail.com>"
 
 RUN apk update && apk upgrade
